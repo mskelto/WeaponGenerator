@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A37AF37E23F1E7B70033C487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF37D23F1E7B70033C487 /* AppDelegate.swift */; };
+		A37AF38023F1E7B70033C487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF37F23F1E7B70033C487 /* SceneDelegate.swift */; };
+		A37AF38223F1E7B70033C487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF38123F1E7B70033C487 /* ContentView.swift */; };
+		A37AF38423F1E7B80033C487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37AF38323F1E7B80033C487 /* Assets.xcassets */; };
+		A37AF38723F1E7B80033C487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37AF38623F1E7B80033C487 /* Preview Assets.xcassets */; };
+		A37AF38A23F1E7B80033C487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37AF38823F1E7B80033C487 /* LaunchScreen.storyboard */; };
+		A37AF39523F1E7B90033C487 /* WeaponGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF39423F1E7B90033C487 /* WeaponGeneratorTests.swift */; };
+		A37AF3A023F1E7B90033C487 /* WeaponGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF39F23F1E7B90033C487 /* WeaponGeneratorUITests.swift */; };
+		A37AF3AE23F1FB770033C487 /* AddWeapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF3AD23F1FB770033C487 /* AddWeapon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A37AF39123F1E7B90033C487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A37AF37223F1E7B60033C487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37AF37923F1E7B70033C487;
+			remoteInfo = WeaponGenerator;
+		};
+		A37AF39C23F1E7B90033C487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A37AF37223F1E7B60033C487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37AF37923F1E7B70033C487;
+			remoteInfo = WeaponGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A37AF37A23F1E7B70033C487 /* WeaponGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeaponGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37AF37D23F1E7B70033C487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A37AF37F23F1E7B70033C487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A37AF38123F1E7B70033C487 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A37AF38323F1E7B80033C487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A37AF38623F1E7B80033C487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A37AF38923F1E7B80033C487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A37AF38B23F1E7B80033C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37AF39023F1E7B90033C487 /* WeaponGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeaponGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37AF39423F1E7B90033C487 /* WeaponGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponGeneratorTests.swift; sourceTree = "<group>"; };
+		A37AF39623F1E7B90033C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37AF39B23F1E7B90033C487 /* WeaponGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeaponGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37AF39F23F1E7B90033C487 /* WeaponGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponGeneratorUITests.swift; sourceTree = "<group>"; };
+		A37AF3A123F1E7B90033C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37AF3AD23F1FB770033C487 /* AddWeapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeapon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A37AF37723F1E7B70033C487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37AF38D23F1E7B90033C487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37AF39823F1E7B90033C487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A37AF37123F1E7B60033C487 = {
+			isa = PBXGroup;
+			children = (
+				A37AF37C23F1E7B70033C487 /* WeaponGenerator */,
+				A37AF39323F1E7B90033C487 /* WeaponGeneratorTests */,
+				A37AF39E23F1E7B90033C487 /* WeaponGeneratorUITests */,
+				A37AF37B23F1E7B70033C487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A37AF37B23F1E7B70033C487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A37AF37A23F1E7B70033C487 /* WeaponGenerator.app */,
+				A37AF39023F1E7B90033C487 /* WeaponGeneratorTests.xctest */,
+				A37AF39B23F1E7B90033C487 /* WeaponGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A37AF37C23F1E7B70033C487 /* WeaponGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				A37AF37D23F1E7B70033C487 /* AppDelegate.swift */,
+				A37AF37F23F1E7B70033C487 /* SceneDelegate.swift */,
+				A37AF38123F1E7B70033C487 /* ContentView.swift */,
+				A37AF3AD23F1FB770033C487 /* AddWeapon.swift */,
+				A37AF38323F1E7B80033C487 /* Assets.xcassets */,
+				A37AF38823F1E7B80033C487 /* LaunchScreen.storyboard */,
+				A37AF38B23F1E7B80033C487 /* Info.plist */,
+				A37AF38523F1E7B80033C487 /* Preview Content */,
+			);
+			path = WeaponGenerator;
+			sourceTree = "<group>";
+		};
+		A37AF38523F1E7B80033C487 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A37AF38623F1E7B80033C487 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A37AF39323F1E7B90033C487 /* WeaponGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A37AF39423F1E7B90033C487 /* WeaponGeneratorTests.swift */,
+				A37AF39623F1E7B90033C487 /* Info.plist */,
+			);
+			path = WeaponGeneratorTests;
+			sourceTree = "<group>";
+		};
+		A37AF39E23F1E7B90033C487 /* WeaponGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A37AF39F23F1E7B90033C487 /* WeaponGeneratorUITests.swift */,
+				A37AF3A123F1E7B90033C487 /* Info.plist */,
+			);
+			path = WeaponGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A37AF37923F1E7B70033C487 /* WeaponGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37AF3A423F1E7B90033C487 /* Build configuration list for PBXNativeTarget "WeaponGenerator" */;
+			buildPhases = (
+				A37AF37623F1E7B70033C487 /* Sources */,
+				A37AF37723F1E7B70033C487 /* Frameworks */,
+				A37AF37823F1E7B70033C487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeaponGenerator;
+			productName = WeaponGenerator;
+			productReference = A37AF37A23F1E7B70033C487 /* WeaponGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A37AF38F23F1E7B90033C487 /* WeaponGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37AF3A723F1E7B90033C487 /* Build configuration list for PBXNativeTarget "WeaponGeneratorTests" */;
+			buildPhases = (
+				A37AF38C23F1E7B90033C487 /* Sources */,
+				A37AF38D23F1E7B90033C487 /* Frameworks */,
+				A37AF38E23F1E7B90033C487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37AF39223F1E7B90033C487 /* PBXTargetDependency */,
+			);
+			name = WeaponGeneratorTests;
+			productName = WeaponGeneratorTests;
+			productReference = A37AF39023F1E7B90033C487 /* WeaponGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A37AF39A23F1E7B90033C487 /* WeaponGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37AF3AA23F1E7B90033C487 /* Build configuration list for PBXNativeTarget "WeaponGeneratorUITests" */;
+			buildPhases = (
+				A37AF39723F1E7B90033C487 /* Sources */,
+				A37AF39823F1E7B90033C487 /* Frameworks */,
+				A37AF39923F1E7B90033C487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37AF39D23F1E7B90033C487 /* PBXTargetDependency */,
+			);
+			name = WeaponGeneratorUITests;
+			productName = WeaponGeneratorUITests;
+			productReference = A37AF39B23F1E7B90033C487 /* WeaponGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A37AF37223F1E7B60033C487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Marshall Skelton";
+				TargetAttributes = {
+					A37AF37923F1E7B70033C487 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A37AF38F23F1E7B90033C487 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A37AF37923F1E7B70033C487;
+					};
+					A37AF39A23F1E7B90033C487 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A37AF37923F1E7B70033C487;
+					};
+				};
+			};
+			buildConfigurationList = A37AF37523F1E7B60033C487 /* Build configuration list for PBXProject "WeaponGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A37AF37123F1E7B60033C487;
+			productRefGroup = A37AF37B23F1E7B70033C487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A37AF37923F1E7B70033C487 /* WeaponGenerator */,
+				A37AF38F23F1E7B90033C487 /* WeaponGeneratorTests */,
+				A37AF39A23F1E7B90033C487 /* WeaponGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A37AF37823F1E7B70033C487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37AF38A23F1E7B80033C487 /* LaunchScreen.storyboard in Resources */,
+				A37AF38723F1E7B80033C487 /* Preview Assets.xcassets in Resources */,
+				A37AF38423F1E7B80033C487 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37AF38E23F1E7B90033C487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37AF39923F1E7B90033C487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A37AF37623F1E7B70033C487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37AF37E23F1E7B70033C487 /* AppDelegate.swift in Sources */,
+				A37AF3AE23F1FB770033C487 /* AddWeapon.swift in Sources */,
+				A37AF38023F1E7B70033C487 /* SceneDelegate.swift in Sources */,
+				A37AF38223F1E7B70033C487 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37AF38C23F1E7B90033C487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37AF39523F1E7B90033C487 /* WeaponGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37AF39723F1E7B90033C487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37AF3A023F1E7B90033C487 /* WeaponGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A37AF39223F1E7B90033C487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37AF37923F1E7B70033C487 /* WeaponGenerator */;
+			targetProxy = A37AF39123F1E7B90033C487 /* PBXContainerItemProxy */;
+		};
+		A37AF39D23F1E7B90033C487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37AF37923F1E7B70033C487 /* WeaponGenerator */;
+			targetProxy = A37AF39C23F1E7B90033C487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A37AF38823F1E7B80033C487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37AF38923F1E7B80033C487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A37AF3A223F1E7B90033C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A37AF3A323F1E7B90033C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A37AF3A523F1E7B90033C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeaponGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZHAS3VDC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeaponGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.WeaponGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A37AF3A623F1E7B90033C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeaponGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZHAS3VDC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeaponGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.WeaponGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A37AF3A823F1E7B90033C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZHAS3VDC;
+				INFOPLIST_FILE = WeaponGeneratorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.WeaponGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeaponGenerator.app/WeaponGenerator";
+			};
+			name = Debug;
+		};
+		A37AF3A923F1E7B90033C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZHAS3VDC;
+				INFOPLIST_FILE = WeaponGeneratorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.WeaponGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeaponGenerator.app/WeaponGenerator";
+			};
+			name = Release;
+		};
+		A37AF3AB23F1E7B90033C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZHAS3VDC;
+				INFOPLIST_FILE = WeaponGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.WeaponGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeaponGenerator;
+			};
+			name = Debug;
+		};
+		A37AF3AC23F1E7B90033C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZHAS3VDC;
+				INFOPLIST_FILE = WeaponGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Marshall.WeaponGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeaponGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A37AF37523F1E7B60033C487 /* Build configuration list for PBXProject "WeaponGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37AF3A223F1E7B90033C487 /* Debug */,
+				A37AF3A323F1E7B90033C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37AF3A423F1E7B90033C487 /* Build configuration list for PBXNativeTarget "WeaponGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37AF3A523F1E7B90033C487 /* Debug */,
+				A37AF3A623F1E7B90033C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37AF3A723F1E7B90033C487 /* Build configuration list for PBXNativeTarget "WeaponGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37AF3A823F1E7B90033C487 /* Debug */,
+				A37AF3A923F1E7B90033C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37AF3AA23F1E7B90033C487 /* Build configuration list for PBXNativeTarget "WeaponGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37AF3AB23F1E7B90033C487 /* Debug */,
+				A37AF3AC23F1E7B90033C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A37AF37223F1E7B60033C487 /* Project object */;
+}

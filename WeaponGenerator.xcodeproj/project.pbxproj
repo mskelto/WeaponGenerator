@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,11 @@
 		A37AF39523F1E7B90033C487 /* WeaponGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF39423F1E7B90033C487 /* WeaponGeneratorTests.swift */; };
 		A37AF3A023F1E7B90033C487 /* WeaponGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF39F23F1E7B90033C487 /* WeaponGeneratorUITests.swift */; };
 		A37AF3AE23F1FB770033C487 /* AddWeapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF3AD23F1FB770033C487 /* AddWeapon.swift */; };
+		A37AF3B023F329CD0033C487 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A37AF3AF23F329CC0033C487 /* GoogleService-Info.plist */; };
+		A38CA29C23F3A98000B64BFA /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CA29B23F3A98000B64BFA /* Weapon.swift */; };
+		A3BF5838876C5CBC2DB9722D /* libPods-WeaponGeneratorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DD87E3FBFAEF288FBFA72D /* libPods-WeaponGeneratorTests.a */; };
+		B166EC716BC8391A9F55371D /* libPods-WeaponGenerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D1E44FAA059F179578F025 /* libPods-WeaponGenerator.a */; };
+		F69EACB22D7B8E98D010CE11 /* libPods-WeaponGenerator-WeaponGeneratorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9EC7C21D1AA411894D4D7D /* libPods-WeaponGenerator-WeaponGeneratorUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02084ED40816CFCA3F0690DF /* Pods-WeaponGeneratorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaponGeneratorTests.release.xcconfig"; path = "Target Support Files/Pods-WeaponGeneratorTests/Pods-WeaponGeneratorTests.release.xcconfig"; sourceTree = "<group>"; };
+		10D0F5C6F7BEEC67EDBFC0D2 /* Pods-WeaponGenerator-WeaponGeneratorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaponGenerator-WeaponGeneratorUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeaponGenerator-WeaponGeneratorUITests/Pods-WeaponGenerator-WeaponGeneratorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23D1E44FAA059F179578F025 /* libPods-WeaponGenerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeaponGenerator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DD87E3FBFAEF288FBFA72D /* libPods-WeaponGeneratorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeaponGeneratorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9EC7C21D1AA411894D4D7D /* libPods-WeaponGenerator-WeaponGeneratorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeaponGenerator-WeaponGeneratorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F052606D95A23092B89092 /* Pods-WeaponGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaponGenerator.release.xcconfig"; path = "Target Support Files/Pods-WeaponGenerator/Pods-WeaponGenerator.release.xcconfig"; sourceTree = "<group>"; };
 		A37AF37A23F1E7B70033C487 /* WeaponGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeaponGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37AF37D23F1E7B70033C487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A37AF37F23F1E7B70033C487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,12 @@
 		A37AF39F23F1E7B90033C487 /* WeaponGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponGeneratorUITests.swift; sourceTree = "<group>"; };
 		A37AF3A123F1E7B90033C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A37AF3AD23F1FB770033C487 /* AddWeapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeapon.swift; sourceTree = "<group>"; };
+		A37AF3AF23F329CC0033C487 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A37AF3B123F337F50033C487 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A38CA29B23F3A98000B64BFA /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		A8B1C204D817104FFBD93DAF /* Pods-WeaponGeneratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaponGeneratorTests.debug.xcconfig"; path = "Target Support Files/Pods-WeaponGeneratorTests/Pods-WeaponGeneratorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B329FC227E4C9858BCC45C93 /* Pods-WeaponGenerator-WeaponGeneratorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaponGenerator-WeaponGeneratorUITests.release.xcconfig"; path = "Target Support Files/Pods-WeaponGenerator-WeaponGeneratorUITests/Pods-WeaponGenerator-WeaponGeneratorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5EFD0FEA77483CDC3B9B347 /* Pods-WeaponGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaponGenerator.debug.xcconfig"; path = "Target Support Files/Pods-WeaponGenerator/Pods-WeaponGenerator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B166EC716BC8391A9F55371D /* libPods-WeaponGenerator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BF5838876C5CBC2DB9722D /* libPods-WeaponGeneratorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +91,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69EACB22D7B8E98D010CE11 /* libPods-WeaponGenerator-WeaponGeneratorUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32DC3179D5CD825727446061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23D1E44FAA059F179578F025 /* libPods-WeaponGenerator.a */,
+				7C9EC7C21D1AA411894D4D7D /* libPods-WeaponGenerator-WeaponGeneratorUITests.a */,
+				37DD87E3FBFAEF288FBFA72D /* libPods-WeaponGeneratorTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A37AF37123F1E7B60033C487 = {
 			isa = PBXGroup;
 			children = (
+				A38CA29A23F3A95500B64BFA /* Models */,
+				A37AF3B123F337F50033C487 /* GoogleService-Info.plist */,
 				A37AF37C23F1E7B70033C487 /* WeaponGenerator */,
 				A37AF39323F1E7B90033C487 /* WeaponGeneratorTests */,
 				A37AF39E23F1E7B90033C487 /* WeaponGeneratorUITests */,
 				A37AF37B23F1E7B70033C487 /* Products */,
+				F1AF89DEA8A43E13256E8CFC /* Pods */,
+				32DC3179D5CD825727446061 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +135,7 @@
 		A37AF37C23F1E7B70033C487 /* WeaponGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				A37AF3AF23F329CC0033C487 /* GoogleService-Info.plist */,
 				A37AF37D23F1E7B70033C487 /* AppDelegate.swift */,
 				A37AF37F23F1E7B70033C487 /* SceneDelegate.swift */,
 				A37AF38123F1E7B70033C487 /* ContentView.swift */,
@@ -139,6 +174,27 @@
 			path = WeaponGeneratorUITests;
 			sourceTree = "<group>";
 		};
+		A38CA29A23F3A95500B64BFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A38CA29B23F3A98000B64BFA /* Weapon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1AF89DEA8A43E13256E8CFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFD0FEA77483CDC3B9B347 /* Pods-WeaponGenerator.debug.xcconfig */,
+				83F052606D95A23092B89092 /* Pods-WeaponGenerator.release.xcconfig */,
+				10D0F5C6F7BEEC67EDBFC0D2 /* Pods-WeaponGenerator-WeaponGeneratorUITests.debug.xcconfig */,
+				B329FC227E4C9858BCC45C93 /* Pods-WeaponGenerator-WeaponGeneratorUITests.release.xcconfig */,
+				A8B1C204D817104FFBD93DAF /* Pods-WeaponGeneratorTests.debug.xcconfig */,
+				02084ED40816CFCA3F0690DF /* Pods-WeaponGeneratorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A37AF3A423F1E7B90033C487 /* Build configuration list for PBXNativeTarget "WeaponGenerator" */;
 			buildPhases = (
+				74E7C2B27961A8BA0994E85F /* [CP] Check Pods Manifest.lock */,
 				A37AF37623F1E7B70033C487 /* Sources */,
 				A37AF37723F1E7B70033C487 /* Frameworks */,
 				A37AF37823F1E7B70033C487 /* Resources */,
+				E9225A7396C840E625FBA8F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A37AF3A723F1E7B90033C487 /* Build configuration list for PBXNativeTarget "WeaponGeneratorTests" */;
 			buildPhases = (
+				7CF89403E48645E483742055 /* [CP] Check Pods Manifest.lock */,
 				A37AF38C23F1E7B90033C487 /* Sources */,
 				A37AF38D23F1E7B90033C487 /* Frameworks */,
 				A37AF38E23F1E7B90033C487 /* Resources */,
@@ -181,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A37AF3AA23F1E7B90033C487 /* Build configuration list for PBXNativeTarget "WeaponGeneratorUITests" */;
 			buildPhases = (
+				9B495D15102728F78FD4C019 /* [CP] Check Pods Manifest.lock */,
 				A37AF39723F1E7B90033C487 /* Sources */,
 				A37AF39823F1E7B90033C487 /* Frameworks */,
 				A37AF39923F1E7B90033C487 /* Resources */,
+				B944A819DF2CABC635B28705 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A37AF38A23F1E7B80033C487 /* LaunchScreen.storyboard in Resources */,
+				A37AF3B023F329CD0033C487 /* GoogleService-Info.plist in Resources */,
 				A37AF38723F1E7B80033C487 /* Preview Assets.xcassets in Resources */,
 				A37AF38423F1E7B80033C487 /* Assets.xcassets in Resources */,
 			);
@@ -265,11 +327,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74E7C2B27961A8BA0994E85F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeaponGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CF89403E48645E483742055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeaponGeneratorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B495D15102728F78FD4C019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeaponGenerator-WeaponGeneratorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B944A819DF2CABC635B28705 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeaponGenerator-WeaponGeneratorUITests/Pods-WeaponGenerator-WeaponGeneratorUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeaponGenerator-WeaponGeneratorUITests/Pods-WeaponGenerator-WeaponGeneratorUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeaponGenerator-WeaponGeneratorUITests/Pods-WeaponGenerator-WeaponGeneratorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9225A7396C840E625FBA8F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeaponGenerator/Pods-WeaponGenerator-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeaponGenerator/Pods-WeaponGenerator-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeaponGenerator/Pods-WeaponGenerator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A37AF37623F1E7B70033C487 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38CA29C23F3A98000B64BFA /* Weapon.swift in Sources */,
 				A37AF37E23F1E7B70033C487 /* AppDelegate.swift in Sources */,
 				A37AF3AE23F1FB770033C487 /* AddWeapon.swift in Sources */,
 				A37AF38023F1E7B70033C487 /* SceneDelegate.swift in Sources */,
@@ -436,6 +602,7 @@
 		};
 		A37AF3A523F1E7B90033C487 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5EFD0FEA77483CDC3B9B347 /* Pods-WeaponGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +623,7 @@
 		};
 		A37AF3A623F1E7B90033C487 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F052606D95A23092B89092 /* Pods-WeaponGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +644,7 @@
 		};
 		A37AF3A823F1E7B90033C487 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B1C204D817104FFBD93DAF /* Pods-WeaponGeneratorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +667,7 @@
 		};
 		A37AF3A923F1E7B90033C487 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02084ED40816CFCA3F0690DF /* Pods-WeaponGeneratorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +690,7 @@
 		};
 		A37AF3AB23F1E7B90033C487 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D0F5C6F7BEEC67EDBFC0D2 /* Pods-WeaponGenerator-WeaponGeneratorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +711,7 @@
 		};
 		A37AF3AC23F1E7B90033C487 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B329FC227E4C9858BCC45C93 /* Pods-WeaponGenerator-WeaponGeneratorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,6 +8,8 @@
 
 import SwiftUI
 import Combine
+import Firebase
+var ref: DatabaseReference!
 
 struct AddWeapon: View {
     @State var weaponName: String = ""
@@ -48,6 +50,13 @@ struct AddWeapon: View {
                 }
                 .border(Color.black)
             }
+            HStack {
+                Button(action: {
+                    SaveWeapon(weaponName: self.weaponName, hitModifiers: self.hitModifiers, numHitModifiers: self.numHitModifiers)
+                }) {
+                    Text("Save")
+                }
+            }
         }
     }
 }
@@ -56,4 +65,9 @@ struct AddWeapon_Previews: PreviewProvider {
     static var previews: some View {
         AddWeapon()
     }
+}
+func SaveWeapon(weaponName: String, hitModifiers: String, numHitModifiers: String) {
+    ref = Database.database().reference()
+    ref.child("Weapon").childByAutoId().setValue(["WeaponName": weaponName,
+        "HitModifier": hitModifiers, "NumberOfDice": numHitModifiers])
 }

@@ -9,7 +9,6 @@
 import SwiftUI
 import Combine
 import Firebase
-var ref: DatabaseReference!
 
 struct AddWeapon: View {
     @State var weaponName: String = ""
@@ -67,7 +66,6 @@ struct AddWeapon_Previews: PreviewProvider {
     }
 }
 func SaveWeapon(weaponName: String, hitModifiers: String, numHitModifiers: String) {
-    ref = Database.database().reference()
     ref.child("Weapon").childByAutoId().setValue(["WeaponName": weaponName,
         "HitModifier": hitModifiers, "NumberOfDice": numHitModifiers])
 }

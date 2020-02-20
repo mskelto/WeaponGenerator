@@ -19,6 +19,7 @@
 		A37AF3B023F329CD0033C487 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A37AF3AF23F329CC0033C487 /* GoogleService-Info.plist */; };
 		A38CA29C23F3A98000B64BFA /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CA29B23F3A98000B64BFA /* Weapon.swift */; };
 		A3BF5838876C5CBC2DB9722D /* libPods-WeaponGeneratorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DD87E3FBFAEF288FBFA72D /* libPods-WeaponGeneratorTests.a */; };
+		A3F09F7823F4894A00FCB78D /* WeaponRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F09F7723F4894A00FCB78D /* WeaponRow.swift */; };
 		B166EC716BC8391A9F55371D /* libPods-WeaponGenerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D1E44FAA059F179578F025 /* libPods-WeaponGenerator.a */; };
 		F69EACB22D7B8E98D010CE11 /* libPods-WeaponGenerator-WeaponGeneratorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9EC7C21D1AA411894D4D7D /* libPods-WeaponGenerator-WeaponGeneratorUITests.a */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		A37AF3AF23F329CC0033C487 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A37AF3B123F337F50033C487 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A38CA29B23F3A98000B64BFA /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		A3F09F7723F4894A00FCB78D /* WeaponRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponRow.swift; sourceTree = "<group>"; };
 		A8B1C204D817104FFBD93DAF /* Pods-WeaponGeneratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaponGeneratorTests.debug.xcconfig"; path = "Target Support Files/Pods-WeaponGeneratorTests/Pods-WeaponGeneratorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B329FC227E4C9858BCC45C93 /* Pods-WeaponGenerator-WeaponGeneratorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaponGenerator-WeaponGeneratorUITests.release.xcconfig"; path = "Target Support Files/Pods-WeaponGenerator-WeaponGeneratorUITests/Pods-WeaponGenerator-WeaponGeneratorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C5EFD0FEA77483CDC3B9B347 /* Pods-WeaponGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaponGenerator.debug.xcconfig"; path = "Target Support Files/Pods-WeaponGenerator/Pods-WeaponGenerator.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				A37AF38823F1E7B80033C487 /* LaunchScreen.storyboard */,
 				A37AF38B23F1E7B80033C487 /* Info.plist */,
 				A37AF38523F1E7B80033C487 /* Preview Content */,
+				A3F09F7723F4894A00FCB78D /* WeaponRow.swift */,
 			);
 			path = WeaponGenerator;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				A37AF37E23F1E7B70033C487 /* AppDelegate.swift in Sources */,
 				A37AF3AE23F1FB770033C487 /* AddWeapon.swift in Sources */,
 				A37AF38023F1E7B70033C487 /* SceneDelegate.swift in Sources */,
+				A3F09F7823F4894A00FCB78D /* WeaponRow.swift in Sources */,
 				A37AF38223F1E7B70033C487 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
